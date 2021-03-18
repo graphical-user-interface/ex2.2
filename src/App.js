@@ -78,50 +78,36 @@ export default function App() {
 								<Toolbar variant='dense'>
 									<Grid container justify='space-between'>
 										<Grid item>
-											<Typography variant='span'>
-												<Link
-													href='#'
-													color='inherit'
-													onClick={preventDefault}>
-													File
-												</Link>
-											</Typography>
+											<Link
+												href='#'
+												color='inherit'
+												onClick={preventDefault}>
+												File
+											</Link>
 										</Grid>
 										<Grid item>
-											<Typography
-												variant='span'
-												color='inherit'>
-												<Link
-													href='#'
-													color='inherit'
-													onClick={preventDefault}>
-													Edit
-												</Link>
-											</Typography>
+											<Link
+												href='#'
+												color='inherit'
+												onClick={preventDefault}>
+												Edit
+											</Link>
 										</Grid>
 										<Grid item>
-											<Typography
-												variant='span'
-												color='inherit'>
-												<Link
-													href='#'
-													color='inherit'
-													onClick={preventDefault}>
-													Help
-												</Link>
-											</Typography>
+											<Link
+												href='#'
+												color='inherit'
+												onClick={preventDefault}>
+												Help
+											</Link>
 										</Grid>
 										<Grid item>
-											<Typography
-												variant='span'
-												color='inherit'>
-												<Link
-													href='#'
-													color='inherit'
-													onClick={handleOpen}>
-													About
-												</Link>
-											</Typography>
+											<Link
+												href='#'
+												color='inherit'
+												onClick={handleOpen}>
+												About
+											</Link>
 										</Grid>
 									</Grid>
 								</Toolbar>
